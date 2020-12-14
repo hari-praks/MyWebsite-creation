@@ -1,0 +1,133 @@
+body {
+background:#f7faff;
+margin:0;
+}
+/*.container{
+    width:780px;
+    margin:0 auto;
+    background-color:white;
+    box-shadow: 0px 9px 34px 9px;
+}*/
+
+aside{
+float:right;
+width:435px;
+height: 613px;;
+/*border: 2px solid black;*/
+padding:30px 0 0 40px;
+margin-right: 40px;
+margin-top: 40px;
+background-color: #321bec5e;
+box-shadow:  3px 2px 20px 0px;
+}
+
+h1{
+   margin:0px;
+   color:darkgreen;
+    font-size:25px;
+    font-family:sans-serif;
+    font-weight: normal;
+    }
+.main{
+    margin:0 0 0 180px;
+padding:35px 40px 0 30px;
+    color:darkblue;
+    font-size:13px;
+    font-family:"Arial";
+    line-height:18px;
+    height: 700px;
+    text-emphasis:justify;    
+}
+#block{
+   /* border: 2px solid black;*/
+    width: 400px;
+    background-color: white;
+    box-shadow:  3px 2px 20px 0px;
+}
+
+/*.heading{     /*ps:heading is ony in contact but it can be used for any page
+    text-align: center;
+    margin-bottom: 20px;
+}*/
+#imagead img {
+   width:400px;
+    height: 400px;
+}
+#Petavailable{
+    color: black;
+    text-align: center;
+}
+.details #homeaddress img {
+    width: 20px;
+}
+.details p{
+    color: black;
+}
+.details #eye img{
+width:20px;
+}
+.details #likes img{
+    width:20px;
+    
+}
+.details #calender img{
+    width: 20px;
+}
+.details #person img{
+    width: 40px;
+/*float: right;*/
+}
+.details #person{
+    color: black;
+}
+.filter{
+    height: 50px;
+    background:black;
+    text-align: center;
+    color: white;
+    margin:20px 40px 20px 1px;
+    padding: 20px;
+  
+}
+
+aside form select{
+    width:400px;
+    height: 40px;
+    border-radius: 5px;
+}
+aside input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('/WEBDA/IMages/Search.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  background-size: 20px;
+    border-radius: 5px;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+ aside input[type=text]:focus {
+  width: 100%;
+}
+footer{
+    padding:6px 40px 6px 40px;
+    background:#DAF7A6;
+    font-family:"Lucida Sans Unicode";
+    font-size:11px;
+    color:#212E16;
+    text-decoration: right;
+}
+footer a{
+    text-decoration: none;
+    color:#212E16;
+}
+.separator{
+    color:black;
+    font-weight: bold;
+}

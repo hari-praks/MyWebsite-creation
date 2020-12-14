@@ -1,0 +1,240 @@
+body {
+background:#f7faff;
+margin:0;
+}
+/*.container{
+    width:780px;
+    margin:0 auto;
+    background-color:white;
+    box-shadow: 0px 9px 34px 9px;
+}*/
+.header{
+    padding:45px 0 20px 40px;
+    /**border:5px solid black;*/
+    background-color: #610404;
+}
+.linki{
+    text-decoration: none;
+    font-size:24px;
+    color:white;
+}
+.menu{
+   background:white;/*#610404*/
+    padding:6px 0 6px 40px;
+
+}
+/*.menu a #ad{
+    background-image:url("/WEB%2520DA/IMages/plus.png");
+}*/
+.menu a{
+    color:black;
+    opacity:1;
+    font-size: 20px;
+    font-family:sans-serif;
+    font-weight: bold;
+    text-decoration: none;/*removes the underline*/
+}
+.separatenav{
+    color: black;
+    font-weight: bold;
+}
+.separatenav:hover{
+  color:white;
+    font-weight: bold;  
+}
+
+.menu a:hover{
+    opacity:0.9;
+    color:white;
+    /*background-color: red;*/
+    
+}
+.menu:hover{
+    background:#610404;/*#ff980054*/
+    
+}
+.menu a img{
+    width: 40px;
+}
+aside{
+float:right;
+width:435px;
+height: 768px;
+/*border: 2px solid black;*/
+padding:30px 0 0 40px;
+margin-right: 40px;
+margin-top: 40px;
+background-color: #321bec5e;
+box-shadow: 3px 2px 20px 0px;
+}
+
+h1{
+   margin:0px;
+   color:darkgreen;
+    font-size:25px;
+    font-family:sans-serif;
+    font-weight: normal;
+    }
+.main{
+    margin:0 0 0 57px;
+padding:35px 40px 0 30px;
+    color:darkblue;
+    font-size:13px;
+    font-family:"Arial";
+    line-height:18px;
+    height: 821px;
+    text-emphasis:justify;    
+}
+#block{
+   /* border: 2px solid black;*/
+    width: 400px;
+    background-color: white;
+    box-shadow:  3px 2px 20px 0px;
+    margin-bottom: 20px;
+}
+
+.heading{     /*ps:heading is ony in contact but it can be used for any page*/
+    /*text-align: center;*/
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black;
+}
+#imagead img {
+   width:400px;
+    height: 220px;
+}
+#Petavailable{
+   color: black;
+    text-align: center;
+    background-color: #DAF7A6;
+    width: 297px;
+    height: 43px;
+    padding: 27px 0px 9px 0px;
+    font-size: 20px;
+}
+/*.details #homeaddress img {
+    width: 20px;
+}*/
+.details{
+    margin:0 40px 40px 40px;
+    padding: 20px;
+}
+.details p,span{
+    color: black;
+}
+i{
+    font-size:20px;
+}
+.filter{
+    height: 50px;
+    background:black;
+    text-align: center;
+    color: white;
+    margin:20px 40px 20px 1px;
+    padding: 20px;
+  
+}
+
+aside form select{
+    width:400px;
+    height: 40px;
+    border-radius: 5px;
+}
+aside input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('/WEBDA/IMages/Search.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  background-size: 20px;
+    border-radius: 5px;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+ aside input[type=text]:focus {
+  width: 100%;
+}
+label{
+    font-size: 20px;
+    font-weight:400;
+}
+#details2{
+width: 400px;
+background-color: white;
+padding: 0px;
+height: 560px;
+margin-right: 106px;
+box-shadow: 3px 2px 20px 0px #090c7f;
+
+}
+footer{
+    padding:6px 40px 6px 40px;
+    background:#DAF7A6;
+    font-family:"Lucida Sans Unicode";
+    font-size:11px;
+    color:#212E16;
+    text-decoration: right;
+}
+footer a{
+    text-decoration: none;
+    color:#212E16;
+}
+.separator{
+    color:black;
+    font-weight: bold;
+}
+
+/********************************CONTACT*********************/
+.contactaside{
+    background-image: url('/WEBDA/IMages/contactus.jpg');
+    background-repeat: no-repeat;
+    background-size: 759px;
+    width: 719px;
+    height: 478px;
+}
+#contact #form form{
+width: 500px;
+/*border: 2px solid black;*/
+padding: 20px;
+margin: 0 14px 14px 0px;
+box-shadow: 0px 2px 11px 1px;
+border-radius: 5px;
+}
+#contact input{
+    width:100%;
+    height:20px;
+    border-radius: 5px;
+    background: #3f51b547;
+}
+#contact #messages{
+     width:90%;
+    border-radius: 5px;
+    background: #3f51b547;
+
+}
+/*#contact #form #submit{
+    height: 30px;
+    background:#610404;
+}*/
+button{
+    height: 30px;
+    width: 100%;
+      background:#610404;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;  
+    
+}
+button:hover{
+  opacity: 0.8;
+  background:linen;
+  color: black;
+
+}
+
